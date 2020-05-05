@@ -1,0 +1,50 @@
+h1{
+    color: #2A9D8F;
+}
+p{
+    color: #773535;
+}
+h2{
+    color: #E76F51;
+}
+body{
+    background: #fefefe;
+}
+section{
+    background: #E9C46A;
+}
+article{
+    background: #E9C46A;
+}
+body{
+    background: #264653;
+}
+a{
+    color: #2A9D8F;
+}
+footer{
+    color: #2A9D8F;
+}
+
+.head-1{
+    color: white;
+}
+
+.head-2{
+    color: #E76F51;
+    font-variant: small-caps;
+}
+
+.main-header-logo img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.main-header-logo h1{
+    color: #2A9D8F;
+    font-variant: small-caps;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
