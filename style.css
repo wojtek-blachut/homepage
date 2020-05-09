@@ -1,50 +1,50 @@
-h1{
-    color: #2A9D8F;
+h1 {
+  color: #2a9d8f;
 }
-p{
-    color: #773535;
+p {
+  color: #773535;
 }
-h2{
-    color: #E76F51;
+h2 {
+  color: #e76f51;
 }
-body{
-    background: #fefefe;
+body {
+  background: #fefefe;
 }
-section{
-    background: #E9C46A;
+section {
+  background: #e9c46a;
 }
-article{
-    background: #E9C46A;
+article {
+  background: #e9c46a;
 }
-body{
-    background: #264653;
+body {
+  background: #264653;
 }
-a{
-    color: #2A9D8F;
+a {
+  color: #2a9d8f;
 }
-footer{
-    color: #2A9D8F;
-}
-
-.head-1{
-    color: white;
+footer {
+  color: #2a9d8f;
 }
 
-.head-2{
-    color: #E76F51;
-    font-variant: small-caps;
+.head-1 {
+  color: white;
 }
 
-.main-header-logo img{
-    float: left;
-    width: 40px;
-    height: 40px;
+.head-2 {
+  color: #e76f51;
+  font-variant: small-caps;
 }
 
-.main-header-logo h1{
-    color: #2A9D8F;
-    font-variant: small-caps;
-    position: relative;
-    top: 2px;
-    left: 10px;
+.main-header-logo img {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.main-header-logo h1 {
+  color: #2a9d8f;
+  font-variant: small-caps;
+  position: relative;
+  top: 2px;
+  left: 10px;
 }

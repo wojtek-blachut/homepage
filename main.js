@@ -1,4 +1,6 @@
-const name = 'Wojtek';
-const surname = 'Blachut';
+const name = "Wojtek";
+const surname = "Blachut";
 
-console.log(`Siemka z tej strony ${name} ${surname}. Życzę miłego przeglądania strony. Pozdrawiam!`)
+console.log(
+  `Siemka z tej strony ${name} ${surname}. Życzę miłego przeglądania strony. Pozdrawiam!`
+);
