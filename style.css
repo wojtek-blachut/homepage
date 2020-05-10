@@ -48,3 +48,23 @@ footer {
   top: 2px;
   left: 10px;
 }
+
+.navigation {
+  background: #773535;
+  border-radius: 20px;
+  height: 100px;
+  /* display: inline; */
+
+  /* position: relative; */
+}
+
+.navigation__link {
+  text-decoration: none;
+  /* display: inline-block; */
+  position: relative;
+  top: 45%;
+  margin: 20px;
+  height:120px;
+  width: 120px;
+  box-sizing: border-box;
+}
