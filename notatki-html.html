@@ -17,30 +17,39 @@
       </nav>
     </header>
     <main>
-      <header class="main-header-logo">
-        <img src="images/HTML-logo.png" alt="Logo HTML" />
-        <h1 class="head-1">Notatki HTML</h1>
+      <header class="main-header">
+        <img
+          class="main-header__logo"
+          src="images/HTML-logo.png"
+          alt="Logo HTML"
+        />
+        <h1 class="main-header__text">Notatki HTML</h1>
       </header>
-      <section>
-        <h2 class="head-2">Jak stworzyć prawidłowego HTMLa?</h2>
-        <p>
-          Sprytny skrót który pozwala nam stworzyć podstawowy szkielet HTMLa to
-          ! i po nim enter ale tylko w pliku z rozszrzeniem html. Tworzenie
-          zgodnego ze standardami HTMLa to sztuka, która wymaga od nas
-          cierpliwości i poświęcenie wielu godzin pracy.
-        </p>
-        <p>
-          HTML to język znaczników/tagów/elementów. Typowy element html wygląda
-          następująco:
-          <br />
-          <br />
-          &lt;znacznik atrybut="wartość"&gt; treść &lt;/znacznik&gt;
-        </p>
+      <section class="notes">
+        <h2 class="notes__header">1st week</h2>
+        <article class="article">
+          <h3 class="article__header">Jak stworzyć prawidłowego HTMLa?</h3>
+          <p class="article__description">
+            Sprytny skrót który pozwala nam stworzyć podstawowy szkielet HTMLa
+            to ! i po nim enter ale tylko w pliku z rozszrzeniem html. Tworzenie
+            zgodnego ze standardami HTMLa to sztuka, która wymaga od nas
+            cierpliwości i poświęcenie wielu godzin pracy.
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__header">Typowy element html</h3>
+          <p class="article__description">
+            HTML to język znaczników/tagów/elementów. Typowy element html wygląda
+            następująco:
+            <br />
+            <br />
+            &lt;znacznik atrybut="wartość"&gt; treść &lt;/znacznik&gt;
+          </p>
+        </article>
       </section>
     </main>
-    <footer>
+    <footer class="main-footer">
       Wszystkie prawa zastrzezone.
     </footer>
   </body>
-  <script></script>
 </html>

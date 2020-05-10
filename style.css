@@ -26,22 +26,18 @@ footer {
   color: #2a9d8f;
 }
 
-.head-1 {
-  color: white;
-}
-
 .head-2 {
   color: #e76f51;
   font-variant: small-caps;
 }
 
-.main-header-logo img {
+.main-header__logo {
   float: left;
   width: 40px;
   height: 40px;
 }
 
-.main-header-logo h1 {
+.main-header__text {
   color: #2a9d8f;
   font-variant: small-caps;
   position: relative;
@@ -64,7 +60,14 @@ footer {
   position: relative;
   top: 45%;
   margin: 20px;
-  height:120px;
+  height: 120px;
   width: 120px;
   box-sizing: border-box;
+}
+
+.notes {
+  display: inline-block;
+  width: 300px;
+  border-radius: 20px;
+  margin-right: 20px;
 }
