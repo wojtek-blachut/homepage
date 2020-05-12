@@ -29,7 +29,6 @@ footer {
 }
 
 .navigation {
-  max-width: 1000px;
   background: #773535;
   border-radius: 20px;
   height: 50px;
@@ -54,6 +53,7 @@ footer {
 
 .main {
   max-width: 1000px;
+  margin: auto;
 }
 
 .main-header {
