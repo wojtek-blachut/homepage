@@ -12,9 +12,6 @@ p {
 h2 {
   color: #e76f51;
 }
-body {
-  background: #fefefe;
-}
 section {
   background: #e9c46a;
 }
@@ -22,13 +19,15 @@ article {
   background: #e9c46a;
 }
 body {
-  background: #264653;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,45,101,1) 35%, rgba(0,212,255,1) 100%);
 }
 a {
   color: #2a9d8f;
 }
 footer {
   color: #2a9d8f;
+  text-align: center;
 }
 
 .head-2 {
@@ -37,6 +36,10 @@ footer {
 }
 
 .navigation {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
   background: #773535;
   border-radius: 20px;
   height: 50px;
@@ -44,10 +47,11 @@ footer {
 
 .navigation__link {
   text-decoration: none;
-  position: relative;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
   top: 30%;
-  margin: 20px;
-  height: 120px;
+  /* margin: 20px; */
   width: 120px;
   box-sizing: border-box;
 }
