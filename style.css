@@ -54,6 +54,7 @@ footer {
   /* margin: 20px; */
   width: 120px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .notes {
@@ -106,4 +107,15 @@ footer {
 
 .main-page-section {
   grid-area: main-page-section;
+}
+
+@media screen and (max-width: 600px){
+  .main{
+    grid-template-columns: 1fr;  
+    grid-template-areas: 
+  "main-header"
+  "main-image"
+  "main-page-section";
+  }
+  
 }
