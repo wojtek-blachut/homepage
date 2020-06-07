@@ -64,11 +64,23 @@ footer {
 }
 
 .main {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 16px;
+  grid-template-areas: 
+  "main-header main-header"
+  "main-image main-page-section";
   max-width: 1000px;
   margin: auto;
 }
 
+.main-image{
+  grid-area: main-image;
+  width: 100%
+}
+
 .main-header {
+  grid-area: main-header;
   text-align: center;
   }
 
@@ -90,4 +102,8 @@ footer {
 .main-header__text--title {
   display: inline-block;
   box-sizing: border-box;
+}
+
+.main-page-section {
+  grid-area: main-page-section;
 }
